@@ -4,7 +4,7 @@ pipeline{
         stage("Build"){
             steps{
                 echo "Hello World"
-                sh '''#!/bin/bash
+                sh '''
 
                     dotnet run ${WORkSPACE}/HelloWorld.csproj
 
